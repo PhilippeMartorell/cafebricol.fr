@@ -1,0 +1,87 @@
+/* 
+ * Fonts
+ * The Slabo and Andika fonts are under SIL Open Font License:
+ * http://cafebricol.fr/static/SIL%20Open%20Font%20License.txt
+ */
+
+@font-face {
+  font-family: 'Slabo';
+  src: url('slabo.ttf');
+}
+
+@font-face {
+  font-family: 'Andika';
+  src: url('andika.ttf');
+}
+
+/* Links */
+a:link {color: #000000; text-decoration: underline; }
+a:visited {color: #000000; text-decoration: underline; }
+a:hover {color: #c6c6c4; text-decoration: underline; }
+
+#lcarte {
+  text-align: center;
+}
+
+/* General style */
+body {
+  font-family: 'Andika';
+  font-size: 22px;
+  background-color: #c6c6c4;
+  text-align: justify;
+}
+
+h1 {
+  font-family: 'Slabo';
+  text-align: center;
+  padding: 7%;
+  background: url('banner.jpg') no-repeat center;
+  color: white;
+}
+
+h2 {
+  font-family: 'Slabo';
+  text-align: center;
+}
+
+p {
+  margin: 2%;
+  padding-top: 0.2%;
+}
+
+/* Main blocks */
+div.block {
+  border-radius: 30px;
+  margin: 1%;
+  margin-top: 1.5%;
+  padding: 1%;
+  position: relative;
+}
+
+#vert {
+  background-color: #97bf20;
+}
+
+
+#bleu {
+  background-color: #3b64d6;
+}
+
+#orange{
+  background-color: #f39324;
+}
+
+#jaune{
+  background-color: #caca20c7;
+}
+
+#rose {
+  background-color: #c72bad;
+}
+
+/* Images */
+<!--
+#rss {
+  height: 35px;
+}
+-->
